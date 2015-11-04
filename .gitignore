@@ -194,3 +194,8 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+Demoapplication/Web.config
+Demoapplication/Web.Debug.config
+Demoapplication/Web.Release.config
+Demoapplication/Web.config.Debug
+Demoapplication/Web.config.Release

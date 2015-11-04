@@ -1,14 +1,19 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Demoapplication_Test
 {
-    [TestClass]
-    public class UnitTest1
+    using NUnit.Framework;
+    public class DummyTest
     {
-        [TestMethod]
-        public void TestMethod1()
+        [Test]
+        public void dummy_1_success()
         {
+            Assert.That(true != false);
         }
     }
 }
+
